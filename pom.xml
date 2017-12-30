@@ -3,6 +3,20 @@
   <groupId>com.sourcegraph</groupId>
   <artifactId>depuser</artifactId>
   <version>1</version>
+  <repositories>
+    <repository>
+      <id>jcenter</id>
+      <name>JCenter</name>
+      <url>https://jcenter.bintray.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>sourcegraph</id>
+      <name>Sourcegraph</name>
+      <url>https://bintray.com/sourcegraph/simple</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
